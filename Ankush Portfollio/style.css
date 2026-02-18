@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+header {
+    height: 60px;
+    width: 100wh;
+    background-color: rgb(9, 27, 223);
+
+}
+
+.nav {
+    display: flex;
+    justify-content: end;
+    gap: 40px;
+    margin-right: 60px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.nav a {
+    color: azure;
+    text-decoration: none;
+    margin-top: 20px;
+}
+main{
+    background-color: rgb(196, 12, 233);
+    height: auto;   
+}
+
+.heading{
+    padding: 100px;
+    font-size: 55px;
+    width: 700px;
+
+}
+
+.about{
+    font-size: 24PX;
+    height: 100px;
+    color: rgb(251, 247, 250);
+    text-align: center;
+    margin: 10px;
+
+}
+
+
