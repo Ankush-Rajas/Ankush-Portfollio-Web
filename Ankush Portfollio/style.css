@@ -39,11 +39,17 @@ main{
 
 .about{
     font-size: 24PX;
-    height: 100px;
+    height: 600px;
     color: rgb(251, 247, 250);
     text-align: center;
     margin: 10px;
 
 }
 
+.about h2{
+    margin-bottom: 30px;
+}
 
+.skills{
+    height: 200px;
+}
