@@ -1,4 +1,4 @@
-// MOBILE MENU
+
 const toggle = document.getElementById("menu-toggle");
 const nav = document.getElementById("nav-links");
 
@@ -6,7 +6,7 @@ toggle.addEventListener("click", () => {
     nav.classList.toggle("active");
 });
 
-// SMOOTH SCROLL
+
 document.querySelectorAll("a[href^='#']").forEach(anchor => {
     anchor.addEventListener("click", function (e) {
         e.preventDefault();
@@ -16,7 +16,7 @@ document.querySelectorAll("a[href^='#']").forEach(anchor => {
     });
 });
 
-// TYPING EFFECT
+
 const textArray = [
     "Full Stack Developer",
     "AI & ML Enthusiast",
@@ -51,7 +51,7 @@ function eraseEffect() {
 
 document.addEventListener("DOMContentLoaded", typeEffect);
 
-// SCROLL TOP BUTTON
+
 const scrollBtn = document.getElementById("scrollTopBtn");
 
 window.addEventListener("scroll", () => {
