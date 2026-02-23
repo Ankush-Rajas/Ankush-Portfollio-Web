@@ -1,147 +1,139 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
+    <title>Ankush Rajas | Portfolio</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfollio</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <header>
-        <div class="nav">
-            <a href="">Home</a>
-            <a href="">About Us</a>
-            <a href="#skill">Skills</a>
-            <a href="">Project</a>
-            <a href="">Contact</a>
-        </div>
-    </header>
-    <main>
-        <pre class="heading">Hii My Self
-    Ankush Rajas....</pre>
 
-        <div class="about">
-            <h2>About Us</h2>
-            <p> I am a passionate Computer Science student focused on building scalable
-                Full Stack and AI-driven applications. I enjoy solving real-world problems
-                using clean architecture, data-driven approaches, and modern technologies.</p>
+<!-- ================= NAVBAR ================= -->
+<header>
+    <nav class="navbar">
+        <div class="logo">Ankush<span>.</span></div>
+        <div class="menu-toggle" id="menu-toggle">&#9776;</div>
 
+        <ul class="nav-links" id="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<!-- ================= HERO ================= -->
+<section class="hero" id="home">
+    <div class="hero-content">
+        <h1>Hi, I'm <span>Ankush Rajas</span></h1>
+        <p><span id="typing"></span></p>
+        <a href="#projects" class="btn">View My Work</a>
+    </div>
+</section>
+
+<!-- ================= ABOUT ================= -->
+<section class="about" id="about">
+    <h2>About Me</h2>
+    <p>
+        I am a passionate Computer Science student focused on building scalable
+        Full Stack and AI-driven applications.
+    </p>
+
+    <div class="about-grid">
+        <div>
             <h3>Full Stack Development</h3>
-            <p>Building scalable web applications using Java, Spring Boot, and modern frontend tools.
-            </p>
+            <p>Java, Spring Boot & React applications.</p>
+        </div>
+        <div>
             <h3>AI & Machine Learning</h3>
-            <p>Developing predictive models for healthcare, HR analytics, and data-driven systems.</p>
-
+            <p>Healthcare & Data-driven ML systems.</p>
+        </div>
+        <div>
             <h3>Problem Solving</h3>
-            <p>Strong analytical mindset with focus on clean, efficient, and secure solutions.</p>
+            <p>Clean architecture & optimized solutions.</p>
+        </div>
+    </div>
+</section>
 
+<!-- ================= SKILLS ================= -->
+<section class="skills" id="skills">
+    <h2>Skills</h2>
+    <div class="skills-container">
+        <span>HTML</span>
+        <span>CSS</span>
+        <span>JavaScript</span>
+        <span>Java</span>
+        <span>MySQL</span>
+        <span>Spring Boot</span>
+        <span>React</span>
+        <span>AI / ML</span>
+    </div>
+</section>
 
+<!-- ================= PROJECTS ================= -->
+<section class="projects" id="projects">
+    <h2>Major Projects</h2>
+
+    <div class="project-grid">
+
+        <div class="project-card">
+            <h3>Hospital Management System</h3>
+            <p>Java + MySQL backend system for patient management.</p>
         </div>
 
-        <div class="skills" id="skill">
-            <h2>Skills</h2>
-        </div>
-        <div id="tech">
-            <p>HTML</p>
-            <p>CSS</p>
-            <p>JAVASCRIPT</p>
-            <p>JAVA</p>
-            <p>MYSQL</p>
-            <p>Spring Boot</p>
-            <p>React</p>
-            <p>AI/ML</p>
-        </div>
-        <!-- Project section -->
-        <div class="pro_title">
-            <h2>Major Project</h2>
-        </div>
-        <div class="project-list">
-            <div class="project-content">
-                <h3>Hospital Management System</h3>
-                <p>Java + MySQL application for patient management with high accuracy backend.</p>
-                <span>Java</span>
-                <span>MySQL</span>
-            </div>
-            <div class="project-content">
-                <h3>AI Chatboard</h3>
-                <p>Real-time collaborative chat with Gemini AI, code editing, and multi-user support.
-                </p>
-
-                <span>React</span>
-                <span>Node.js</span>
-                <span>MongoDB</span>
-            </div>
-            <div class="project-content">
-                <h3>Water Quality Prediction</h3>
-                <p>AI/ML model using Python to predict water quality parameters accurately.</p>
-
-                <span>Python</span>
-                <span>ML</span>
-                <span>DL</span>
-            </div>
-            <div class="project-content">
-                <h3>Employee Salary Prediction</h3>
-                <p>ML regression model to predict employee salary using experience & skills.</p>
-
-                <span>Python</span>
-                <span>ML</span>
-            </div>
-
-            <div class="project-content">
-                <h3>Hypertension Prediction</h3>
-                <p>Healthcare ML system for early hypertension risk detection.</p>
-
-                <span>ML</span>
-                <span>Healthcare</span>
-            </div>
-
-            <div class="project-content">
-                <h3>Sentinel Net</h3>
-                <p>AI-powered intrusion detection system (Infosys Internship).</p>
-
-                <span>AI</span>
-                <span>Cybersecurity</span>
-            </div>
-
-        </div>
-    </main>
-    <footer>
-        <!-- Contact Section -->
-
-        <div class="contact-title">
-            <p>Get In Touch</p>
+        <div class="project-card">
+            <h3>AI Chatboard</h3>
+            <p>Real-time collaborative AI chat application.</p>
         </div>
 
-        <div class="contact-info">
-            <div class="contact-item">
+        <div class="project-card">
+            <h3>Water Quality Prediction</h3>
+            <p>Machine learning water quality prediction model.</p>
+        </div>
 
-                <h3>Phone</h3>
-                <p>+91 9552543044</p>
-            </div>
-            <div class="contact-item">
+        <div class="project-card">
+            <h3>Employee Salary Prediction</h3>
+            <p>ML regression model for salary prediction.</p>
+        </div>
 
-                <h3>Email</h3>
-                <p>rajasankush1070@gmail.com</p>
-            </div>
-            <div class="contact-item">
+    </div>
+</section>
 
-                <h3>Location</h3>
-                <p>Amravati, Maharashtra</p>
-            </div>
+<!-- ================= CONTACT ================= -->
+<section class="contact" id="contact">
+    <h2>Get In Touch</h2>
 
-            <div class="social-links">
-                <a href="https://github.com/Ankush-Rajas" target="_blank">github</a>
-                <a href="https://linkedin.com/in/ankush-rajas-056a92297" target="_blank">linkedin</a>
-                
-                <button type="submit">
-                    <a href="../assets/Ankush Rajas.pdf" download>Download CV</a>
-                </button>
-            </div>
+    <div class="contact-grid">
+        <div>
+            <h3>Phone</h3>
+            <p>+91 9552543044</p>
+        </div>
+        <div>
+            <h3>Email</h3>
+            <p>rajasankush1070@gmail.com</p>
+        </div>
+        <div>
+            <h3>Location</h3>
+            <p>Amravati, Maharashtra</p>
+        </div>
+    </div>
 
-    </footer>
-    <script src="script.js"></script>
+    <div class="social-links">
+        <a href="https://github.com/Ankush-Rajas" target="_blank">GitHub</a>
+        <a href="https://linkedin.com/in/ankush-rajas-056a92297" target="_blank">LinkedIn</a>
+        <a href="../assets/Ankush Rajas.pdf" download class="btn">Download CV</a>
+    </div>
+</section>
+
+<footer>
+    <p>© 2026 Ankush Rajas | All Rights Reserved</p>
+</footer>
+
+<button id="scrollTopBtn">↑</button>
+
+<script src="script.js"></script>
 </body>
-
 </html>
